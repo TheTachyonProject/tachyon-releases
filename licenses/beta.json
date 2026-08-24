@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "licenses": [
+    {
+      "id": "owner-001",
+      "label": "Tachyon Project Owner",
+      "role": "owner",
+      "key_sha256": "0ac8fe9be8793fde7f690416e32f465e238ca00657cf67b6e778d517595e3b4f",
+      "enabled": true,
+      "max_devices": 0,
+      "allowed_installations": []
+    },
+    {
+      "id": "beta-001",
+      "label": "Private Beta Tester 001",
+      "role": "tester",
+      "key_sha256": "a99300a3189f03ed53fb367c13160f5007bd3e9380d888dd7c37ad45c612aba6",
+      "enabled": true,
+      "max_devices": 1,
+      "allowed_installations": []
+    }
+  ]
+}
