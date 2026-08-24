@@ -1,0 +1,9 @@
+{
+  "version": "0.43.0-canary.3",
+  "channel": "canary",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-updates/releases/download/v0.43.0-canary.3/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-updates/releases/download/v0.43.0-canary.3/TachyonAIO.exe",
+  "sha256": "dd5dd218aec7b11377c15993c3a4ca8410ae2ea94284d7dc7d910d1c161c3319",
+  "authenticode_signed": false,
+  "release_notes": "Tachyon AIO v0.43.0-canary.3 hardens the browser/UI lifecycle before Stable promotion. Resource Groups profile rendering now tolerates an absent optional profile counter instead of aborting startup, Task Manager V2 now mounts correctly against the current four-retailer Task Studio after its DOM lifecycle completes, and regression coverage protects both integrations. The Task Manager finalizer now locates and defers its mount inside Evolution's init body without depending on surrounding lexical formatting, making the composition deterministic across Windows and Linux. The real Chromium E2E tests the current Pokémon Center, Target, Walmart, and Amazon Task Studio contract and handles the Setup Wizard lifecycle correctly. The complete prebuild passes UI/runtime contracts, Go vet/tests, real Chromium, a 120-task create/render/select/edit/delete soak, reload with zero uncaught browser errors, Windows x64 build, and artifact staging. Prebuild also publishes a definitive tachyon/prebuild commit status for future release decisions. Stable remains unchanged until Canary is validated."
+}
