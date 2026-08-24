@@ -1,0 +1,11 @@
+{
+  "active": false,
+  "id": "live-announcements-001",
+  "title": "Live Announcements Are Online",
+  "message": "Tachyon AIO can now receive announcements from the owner instantly — no application update required. If you can see this message, the v0.10.3 live announcement system is working.",
+  "type": "success",
+  "published_at": "2026-08-22T10:26:00Z",
+  "expires_at": "",
+  "dismissible": true,
+  "force": false
+}
