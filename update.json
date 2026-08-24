@@ -1,0 +1,9 @@
+{
+  "version": "0.43.1",
+  "channel": "stable",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-updates/releases/download/v0.43.1/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-updates/releases/download/v0.43.1/TachyonAIO.exe",
+  "sha256": "f6a798d139d813ee2e7931ef846530db72d706d3e0872d2318b5b638edd6a27b",
+  "authenticode_signed": false,
+  "release_notes": "Tachyon AIO v0.43.1 adds the compact manual verification window for CAPTCHA and other human-verification challenges across the existing four-retailer runtime. When Tachyon detects a protected challenge, it locates the exact challenged tab in the task's existing pooled browser/session, brings that tab forward, temporarily resizes the browser to a compact 560x760 verification window, pauses automation while the user completes the challenge manually, and restores the prior browser window state after the retailer clears verification so the task can resume its normal flow. The implementation preserves account, cookie, cart, proxy, and checkout-session continuity and includes regression coverage that keeps challenge handling observation-only with no automated CAPTCHA solving, token injection, protected-flow bypass, stealth, or queue-skipping behavior."
+}
