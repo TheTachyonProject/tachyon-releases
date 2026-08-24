@@ -1,0 +1,9 @@
+{
+  "version": "0.42.1",
+  "channel": "beta",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-updates/releases/download/v0.42.1/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-updates/releases/download/v0.42.1/TachyonAIO.exe",
+  "sha256": "3f38e2168cbb32bf3e198e0d0bdd9d84850cfd5887e185a1f0581d8159c23413",
+  "authenticode_signed": false,
+  "release_notes": "Beta ring initialized from Tachyon AIO v0.42.1 stable."
+}
