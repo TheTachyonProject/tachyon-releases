@@ -17,7 +17,9 @@
       "key_sha256": "a99300a3189f03ed53fb367c13160f5007bd3e9380d888dd7c37ad45c612aba6",
       "enabled": true,
       "max_devices": 1,
-      "allowed_installations": []
+      "allowed_installations": [
+        "TCH-2A30D35DDC77CC010BCDCD6CDEB8043D"
+      ]
     }
   ]
 }
