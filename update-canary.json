@@ -1,9 +1,9 @@
 {
-  "version": "0.43.0-canary.3",
+  "version": "0.44.1-canary.1",
   "channel": "canary",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-updates/releases/download/v0.43.0-canary.3/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-updates/releases/download/v0.43.0-canary.3/TachyonAIO.exe",
-  "sha256": "dd5dd218aec7b11377c15993c3a4ca8410ae2ea94284d7dc7d910d1c161c3319",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.44.1-canary.1/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.44.1-canary.1/TachyonAIO.exe",
+  "sha256": "1b3a85d3ff5f61bba8812d79b23af7feafa27078b3ee254d34f7b9bd6839b5ad",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.43.0-canary.3 hardens the browser/UI lifecycle before Stable promotion. Resource Groups profile rendering now tolerates an absent optional profile counter instead of aborting startup, Task Manager V2 now mounts correctly against the current four-retailer Task Studio after its DOM lifecycle completes, and regression coverage protects both integrations. The Task Manager finalizer now locates and defers its mount inside Evolution's init body without depending on surrounding lexical formatting, making the composition deterministic across Windows and Linux. The real Chromium E2E tests the current Pokémon Center, Target, Walmart, and Amazon Task Studio contract and handles the Setup Wizard lifecycle correctly. The complete prebuild passes UI/runtime contracts, Go vet/tests, real Chromium, a 120-task create/render/select/edit/delete soak, reload with zero uncaught browser errors, Windows x64 build, and artifact staging. Prebuild also publishes a definitive tachyon/prebuild commit status for future release decisions. Stable remains unchanged until Canary is validated."
+  "release_notes": "Tachyon AIO v0.44.1-canary.1 is a licensing-authority validation build. It includes the new stateful license authority client adapter, automatic first-device slot claims, signed short-lived entitlements, protected local entitlement storage, remote validation and deactivation, clear device-limit/revocation errors, and the existing protected 14-day offline license lease. It also includes responsive Classic navigation hardening and the deterministic Setup Wizard/Chromium regression fixes required by the release gates. This Canary is intended only for live desktop validation against the hosted Tachyon authority before any Stable cutover. Stable remains unchanged."
 }
