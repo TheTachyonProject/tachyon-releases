@@ -1,9 +1,9 @@
 {
-  "version": "0.44.1",
+  "version": "0.44.2",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.44.1/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.44.1/TachyonAIO.exe",
-  "sha256": "5c9e9469e24cd9f17da64cf243dbfa9ec8deea9dc398adbc81848ab791cca022",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.44.2/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.44.2/TachyonAIO.exe",
+  "sha256": "7b32790f59262d77d9800d21b0a7e4b82f77e546ff3fa5f7ffd0cdf13d23fda1",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.44.1 promotes the hosted licensing authority to Stable. Production Windows builds now include the Tachyon authority endpoint directly, so members no longer need to configure TACHYON_LICENSE_AUTHORITY_URL manually. Licensing includes automatic first-device claims, signed short-lived entitlements, protected local entitlement storage, remote validation and deactivation, device-limit and revocation handling, and the protected 14-day offline lease. Owner Controls now displays the hosted Tachyon License Authority instead of the legacy GitHub beta registry while authority mode is active and no longer depends on that legacy manifest for its authority view. Licensed launches also keep the authentication screen hidden during startup verification, eliminating the brief authentication-screen flash. This release includes the responsive Classic navigation and Setup Wizard/Chromium release-gate hardening validated in Canary."
+  "release_notes": "Tachyon AIO v0.44.2 upgrades the updater experience. Updates now download and SHA-256 verify without interrupting active work, then remain staged until the member chooses Apply now. The updater no longer uses browser-native confirmation dialogs. Verified staged updates persist across restarts and are re-verified immediately before application; tasks are stopped only during the final controlled restart. The update modal has been redesigned in Tachyon's dark blue, cyan, and purple visual system with integrated download progress, verified-release status, Continue in background, and distinct Download update and Apply now states. This release retains the v0.44.1 hosted licensing-authority Stable cutover and startup authentication-flash fix."
 }
