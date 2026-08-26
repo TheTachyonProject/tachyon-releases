@@ -1,9 +1,9 @@
 {
-  "version": "0.45.0",
+  "version": "0.45.1",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.0/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.0/TachyonAIO.exe",
-  "sha256": "5ba917f7ca459b533f4bd9139becd845e03bb1fb3839dad0b9000dd0aae2735e",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.1/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.1/TachyonAIO.exe",
+  "sha256": "d9989316232ba01f048027c9abb983f8d7e16cd9ce8bba1867c9451d3999b695",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.0 delivers Owner Controls v2 and the Tachyon Admin Platform: scoped Owner API/RBAC, global license and device management, support/audit/telemetry tooling, signed release policy with feature flags/cohorts/broadcasts, Whop lifecycle linking, member device self-service, authority health/backups, and the command-center UI. Desktop authority now uses a signed entitlement while privileged authorization remains server-side, with no reusable admin bearer token or master secret shipped in TachyonAIO.exe. The release preserves protected local activation and offline lease behavior, migrates existing authority state forward in place, audits privileged mutations, and expands large-fleet, Windows-native, prebuild, and CodeQL release validation."
+  "release_notes": "Tachyon AIO v0.45.1 adds live in-app update discovery and authorization-upgrade resilience. Open Tachyon clients now perform lightweight update metadata checks every 30 seconds and automatically surface the branded update prompt when a newer release is available; choosing Later suppresses only that specific version, while the existing staged background download, SHA-256 verification, Apply now restart, and workspace restoration flow remains intact. This patch also fixes the v0.44.x to v0.45.x authorization migration regression: an already-valid protected installation can transparently renew a stale legacy authority entitlement using its protected key digest and unchanged installation identity without asking the member to re-enter the plaintext key, while revoked, expired, invalid, and device-policy-denied licenses continue to fail closed."
 }
