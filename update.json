@@ -1,9 +1,9 @@
 {
-  "version": "0.43.2",
+  "version": "0.44.0",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.43.2/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.43.2/TachyonAIO.exe",
-  "sha256": "91f0a8414da4a4e189caa9a40eb9045b709f3e8c67c95bcaa699057d5c415752",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.44.0/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.44.0/TachyonAIO.exe",
+  "sha256": "32a09d2b785cc2baef0ae20a6ea250dd77d28fce323b8990e40465f0754b6314",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.43.2 adds a Stellar-style in-app update notification that surfaces a new-version prompt at launch with version details, release notes, Later, and Update Now actions while reusing Tachyon's existing verified updater path. It also extends the protected device-bound license cache into a 14-day offline lease so previously validated members are more resilient to temporary GitHub or licensing-service outages. This release also completes the private-source/public-distribution migration by publishing consumer binaries and updater manifests from private tachyon-core into the public tachyon-releases repository."
+  "release_notes": "Tachyon AIO v0.44.0 is a coordinated reliability and UI hardening release. Classic Top Tabs now adapt cleanly on narrower windows by preserving readable labels and moving lower-priority destinations into a More menu instead of cramming or wrapping navigation. Task Manager V2 Fleet Control is normalized as one global Tasks-level control surface rather than appearing module-specific. Private-beta device approval errors are clearer and surface the installation identity needed for support without weakening one-device enforcement. The release also expands regression coverage for responsive navigation, global Fleet placement, four-retailer Task Studio switching, support and backup checks, and the 120-task browser soak while retaining the v0.43.2 update modal and protected 14-day offline license lease."
 }
