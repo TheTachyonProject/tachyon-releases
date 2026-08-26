@@ -1,9 +1,9 @@
 {
-  "version": "0.45.1",
+  "version": "0.45.2",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.1/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.1/TachyonAIO.exe",
-  "sha256": "d9989316232ba01f048027c9abb983f8d7e16cd9ce8bba1867c9451d3999b695",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.2/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.2/TachyonAIO.exe",
+  "sha256": "434e9232ae3528d8bae7e5f8ef44127abc9625c48588bf9398b8fa0e69eec9b1",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.1 adds live in-app update discovery and authorization-upgrade resilience. Open Tachyon clients now perform lightweight update metadata checks every 30 seconds and automatically surface the branded update prompt when a newer release is available; choosing Later suppresses only that specific version, while the existing staged background download, SHA-256 verification, Apply now restart, and workspace restoration flow remains intact. This patch also fixes the v0.44.x to v0.45.x authorization migration regression: an already-valid protected installation can transparently renew a stale legacy authority entitlement using its protected key digest and unchanged installation identity without asking the member to re-enter the plaintext key, while revoked, expired, invalid, and device-policy-denied licenses continue to fail closed."
+  "release_notes": "Tachyon AIO v0.45.2 is a tiny UI polish release used to validate v0.45.1 live update discovery end-to-end. The Updates pane now clearly states that live update checks run every 30 seconds while Tachyon is open. No licensing, task, checkout, authority, or updater backend behavior is changed."
 }
