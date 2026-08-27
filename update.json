@@ -1,9 +1,9 @@
 {
-  "version": "0.45.2",
+  "version": "0.45.3",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.2/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.2/TachyonAIO.exe",
-  "sha256": "434e9232ae3528d8bae7e5f8ef44127abc9625c48588bf9398b8fa0e69eec9b1",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.3/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.3/TachyonAIO.exe",
+  "sha256": "5475d0b96947e4dfdd6b42d6aeb2eb8faf2f8ccb4d29f26ee3da7d8abfd359f9",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.2 is a tiny UI polish release used to validate v0.45.1 live update discovery end-to-end. The Updates pane now clearly states that live update checks run every 30 seconds while Tachyon is open. No licensing, task, checkout, authority, or updater backend behavior is changed."
+  "release_notes": "Tachyon AIO v0.45.3 fixes wide-screen spacing in the Classic / Top Bar appearance layout. Classic now uses the full available workspace width while preserving its existing side padding. Sidebar Workspace and Command Center sizing remain unchanged. No licensing, task, checkout, authority, or updater backend behavior is changed."
 }
