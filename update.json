@@ -1,9 +1,9 @@
 {
-  "version": "0.45.12",
+  "version": "0.45.13",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.12/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.12/TachyonAIO.exe",
-  "sha256": "a2ecc5f65ac9970faec5221a9e547a88e57a90cb50427edb797807cb954cc788",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.13/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.13/TachyonAIO.exe",
+  "sha256": "02df1553edfda0d32a185720e6c775605b374531465d08c3fbd9314266f81e23",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.12 fixes the Member Announcements and header authorization/layout regressions found during real owner/member Windows testing. Standard tester/member sessions can no longer inherit or render the privileged Owner Vault in Top/Classic or Sidebar layouts. The shared Owner Vault / ANNOUNCEMENTS header position now remains mathematically centered under Windows display scaling, including sub-900px CSS viewports, instead of drifting toward the right side. The Owner Vault card also suppresses the stale Owner Console copy so it renders cleanly without duplicated Owner ConsoleOWNER VAULT text. Live announcement reliability is hardened with a real authority integration test that publishes through the owner broadcast endpoint, retrieves the signed policy with a separate tester entitlement, verifies the announcement payload reaches the member policy and validates the authority signature. The merged patch passed Architecture Guard, License Authority V2 including race tests, Linux Release Preflight, Windows Consumer E2E including a real Wails/WebView2 shell, and CodeQL before stable promotion."
+  "release_notes": "Tachyon AIO v0.45.13 replaces the old first-run launch-readiness wizard and percentage/checklist gate with a five-step Welcome to Tachyon orientation. Fresh installs now get a concise welcome screen, three interactive preview screens covering all 15 canonical Tachyon tabs in groups of five, and a final handoff into the app. The miniature tab previews support hover states, buttons, toggles and dropdowns but are intentionally sandboxed so they cannot navigate to real tabs or change live Tachyon state. Existing users who already completed the retired setup wizard are migrated silently, while the Operations launcher is renamed to Welcome Tour so the walkthrough can be replayed later. Legacy readiness UI is retired before its delayed first-run opener can fire, and regression coverage protects the five-slide limit, all 15 tab previews, preview isolation, migration behavior and final shell composition. The merged patch passed Architecture Guard, Linux Release Preflight, Windows Consumer E2E including the native Wails/WebView2 path, and CodeQL before Stable promotion."
 }
