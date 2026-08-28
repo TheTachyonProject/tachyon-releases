@@ -1,9 +1,9 @@
 {
-  "version": "0.45.7",
+  "version": "0.45.8",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.7/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.7/TachyonAIO.exe",
-  "sha256": "8bfabdd5fc6697a28c03c1dc36f691fb900110a4708fb50dea99206d5b3d913c",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.8/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.8/TachyonAIO.exe",
+  "sha256": "82d250ce08cc0e5efbf03270a7ee2c85b434348e6f9d9f4874b687d6db439a67",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.7 is a hard visual correction based on real v0.45.6 screenshots. Dashboard content remains untouched. Every other workspace now receives a high-specificity Obsidian Surface Lock that removes giant blue/cyan calendar, table, ledger, account, update and module backgrounds; strips decorative gradients and glows; forces cards, controls, injected modules, top search, shutdown, Owner Console, Tachyon Network, navigation and workspace internals into one black/graphite/white hierarchy; and prevents inline legacy theme backgrounds from repainting those surfaces. All existing features, routes and runtime behavior remain unchanged. The exact final main build passed Architecture Guard, Linux Release Preflight, Windows Consumer E2E, CodeQL, Private Core CI, real Chromium E2E and the 120-task browser soak."
+  "release_notes": "Tachyon AIO v0.45.8 refines the Dashboard and top shell based directly on member screenshot feedback. The redundant Drop Day and Analytics buttons are removed from the visible Dashboard controls while the Dashboard analytics content remains intact. The time-range control is moved to the Dashboard's right edge, resized and relabeled as Today, 24 Hours, 7 Days, 30 Days and All Time with centered readable text. Owner Console is moved to a compact centered header launcher, while Search, Shut Down and Tachyon Online are consolidated into a matched black-and-white right-side utility cluster. The release also fixes the dashboard header observer so the presentation pass is idempotent and cannot lock Chromium during startup. All existing runtime behavior and authorization boundaries remain unchanged. The exact final main build passed Architecture Guard, Linux Release Preflight, Windows Consumer E2E, CodeQL, Private Core CI, real Chromium E2E and the 120-task browser soak."
 }
