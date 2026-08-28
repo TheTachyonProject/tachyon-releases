@@ -1,9 +1,9 @@
 {
-  "version": "0.45.4",
+  "version": "0.45.5",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.4/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.4/TachyonAIO.exe",
-  "sha256": "8fe5caf34c482c45c9c00d19aefcb79da15ee89e4889b751a70096cdaf734f00",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.5/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.5/TachyonAIO.exe",
+  "sha256": "510eaa9450b09763c48f328f46b3e020f165b4ced310dd4f41f0bcb7c459b825",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.4 completes the 250-item improvement sweep. This release adds release history and cumulative update notes, verified local rollback, in-app confirmations and prompts, global keyboard shortcuts and expanded command-palette task actions, crash-safe versioned local-state persistence with snapshot recovery, stronger sensitive-data redaction and accessibility guards, and cold-start/resource-soak performance budgets. It also hardens final UI composition so repeated compatibility passes remain valid and adds syntax validation for the exact composed page and all served JavaScript bundles. The final main build passed Architecture Guard, Linux Release Preflight, Windows Consumer E2E, CodeQL, Private Core CI, real Chromium E2E, and the 120-task browser soak with zero page errors."
+  "release_notes": "Tachyon AIO v0.45.5 is a focused workspace declutter release. Dashboard remains unchanged. Every other workspace keeps its existing features and controls while using a flatter, denser visual hierarchy with reduced decorative graphics, compact status/metric surfaces, quieter cards, tighter controls and easier scanning. The redundant bottom Runtime / Browser / Local Data / Logs diagnostic strip and footer chrome are removed. Classic Top Tabs now span the full window with no side gutters and distribute evenly on wide displays, while narrower windows retain Tachyon's responsive More overflow so labels never crush or wrap. The final main build passed Architecture Guard, Linux Release Preflight, Windows Consumer E2E, CodeQL, Private Core CI, real Chromium E2E and the 120-task browser soak."
 }
