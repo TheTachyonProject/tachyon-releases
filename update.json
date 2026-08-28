@@ -1,9 +1,9 @@
 {
-  "version": "0.45.5",
+  "version": "0.45.6",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.5/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.5/TachyonAIO.exe",
-  "sha256": "510eaa9450b09763c48f328f46b3e020f165b4ced310dd4f41f0bcb7c459b825",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.6/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.6/TachyonAIO.exe",
+  "sha256": "7e7f1fb2f77f6dd6c2e263ecf911bcb7aa52502c7daba28122240f291d11fc1d",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.5 is a focused workspace declutter release. Dashboard remains unchanged. Every other workspace keeps its existing features and controls while using a flatter, denser visual hierarchy with reduced decorative graphics, compact status/metric surfaces, quieter cards, tighter controls and easier scanning. The redundant bottom Runtime / Browser / Local Data / Logs diagnostic strip and footer chrome are removed. Classic Top Tabs now span the full window with no side gutters and distribute evenly on wide displays, while narrower windows retain Tachyon's responsive More overflow so labels never crush or wrap. The final main build passed Architecture Guard, Linux Release Preflight, Windows Consumer E2E, CodeQL, Private Core CI, real Chromium E2E and the 120-task browser soak."
+  "release_notes": "Tachyon AIO v0.45.6 unifies the product around one Obsidian Black visual system. Legacy blue theme values and module-specific blue skins can no longer create mismatched panels: Updates, Tachyon Network, owner/admin and authority controls, top search, shutdown controls, navigation, command surfaces, cards, inputs and tab internals now share black/graphite surfaces with white/gray hierarchy. Decorative blue gradients, glows and graphics are neutralized; restrained green/red remain only where they communicate semantic success or destructive state. Existing routes, controls, task behavior, retailer flows, updater behavior and persistence are unchanged. The exact final main build passed Architecture Guard, Linux Release Preflight, Windows Consumer E2E, CodeQL, Private Core CI, real Chromium E2E and the 120-task browser soak."
 }
