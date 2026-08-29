@@ -1,9 +1,9 @@
 {
-  "version": "0.45.35",
+  "version": "0.45.36",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.35/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.35/TachyonAIO.exe",
-  "sha256": "439296e5df4dc48b3e1c2794f6c485d1215d534f404023ee8f97e8494866a2fe",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.36/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.36/TachyonAIO.exe",
+  "sha256": "7ecd9facd0174f8c4d1b08e7866d991410fc8d49cf36ac4fc5084e5c09211288",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.35 is a focused hotfix for two regressions introduced in v0.45.34. The seven-tab navigation no longer runs a continuous DOM mutation/reordering loop, restoring reliable tab clicks throughout the desktop shell. The Update Available dialog is now strictly black, graphite, and white; the later visual-correction layer no longer reintroduces blue or cyan styling over the monochrome updater. Regression coverage now explicitly forbids the continuous navigation MutationObserver and forbids the legacy blue updater accents. No task execution, checkout, cookie/session, or retail backend behavior was changed."
+  "release_notes": "Tachyon AIO v0.45.36 completes the v0.45.35 hotfix with a final runtime authority for every updater surface. The seven-tab navigation remains stabilized without the continuous DOM MutationObserver/reordering loop that made tabs unresponsive in v0.45.34. The Update Available dialog and the later byte-backed download/progress UI are now forced to black, graphite, gray, and white, with legacy cyan, blue, purple, neon glow, and source-order overrides explicitly neutralized. Regression coverage rejects those legacy updater accent colors from the final authority. No task execution, checkout, cookie/session, retailer, or purchase behavior was changed."
 }
