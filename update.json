@@ -1,9 +1,9 @@
 {
-  "version": "0.45.32",
+  "version": "0.45.34",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.32/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.32/TachyonAIO.exe",
-  "sha256": "99586d77bb28c44915a1d2c8075776e4924543436f56b4bd413042b45ca00b85",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.34/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.34/TachyonAIO.exe",
+  "sha256": "d52a4d5504fea47f156e68d6d76d19ba6bbf14b01cc7e2f44b23ba4cef1fa7ec",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.32 completes the black-and-white readability pass and makes the Tasks workspace fill the usable desktop tab height. The Tasks hierarchy, task board, creator, empty states, controls, and New Task Group dialog now use a balanced desktop-readable type scale with larger hit targets. The sidebar and task stage stretch together to the bottom of the available Tachyon window with responsive fallbacks and internal scrolling where needed, removing the large unused dead zone below Tasks. This release also includes the monochrome updater styling from the preceding visual pass. No task execution, checkout, cookie/session, group, or updater behavior was changed."
+  "release_notes": "Tachyon AIO v0.45.34 streamlines the desktop navigation and finishes the latest Tasks polish. The main sidebar is reduced to seven primary destinations: Dashboard, Drops, Tasks, Profiles, Accounts, Proxies, and Settings. Orders, Automation, Operations, and Diagnostics are now available as Settings sub-sections, while Owner Vault and Announcements expand to use the reclaimed sidebar space. Tasks now orders modules as Pok\u00e9mon Center, Walmart, Amazon, Target, Login Cookies, and ATC Cookies; the New Task Group picker uses the same layout with Target in the bottom-left, retailer placeholders are replaced with recognizable retailer marks, and leaving a selected group returns the workspace to the standard Select a task group landing screen. No task execution, checkout, cookie/session, or retail backend behavior was changed."
 }
