@@ -1,9 +1,9 @@
 {
-  "version": "0.45.30",
+  "version": "0.45.32",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.30/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.30/TachyonAIO.exe",
-  "sha256": "f09091613b735c9c8cbe0b1543a4f3329eaa9e7c257f43f33c9b90185b40aaf4",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.32/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.32/TachyonAIO.exe",
+  "sha256": "99586d77bb28c44915a1d2c8075776e4924543436f56b4bd413042b45ca00b85",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.30 adds the new nested Tasks sidebar hierarchy. Pok\u00e9mon Center, Target, Walmart, Amazon, Login Cookies, and ATC Cookies are the six parent entries. Named groups remain hidden beneath their parent until expanded, and selecting a group opens only that group's task workspace. The new group flow creates groups directly under the selected parent. This release also includes the stability fixes validated by Chromium E2E, the 120-task soak, Windows consumer E2E, Linux preflight, Member Build Boundary, Architecture Guard, Prebuild, and CodeQL."
+  "release_notes": "Tachyon AIO v0.45.32 completes the black-and-white readability pass and makes the Tasks workspace fill the usable desktop tab height. The Tasks hierarchy, task board, creator, empty states, controls, and New Task Group dialog now use a balanced desktop-readable type scale with larger hit targets. The sidebar and task stage stretch together to the bottom of the available Tachyon window with responsive fallbacks and internal scrolling where needed, removing the large unused dead zone below Tasks. This release also includes the monochrome updater styling from the preceding visual pass. No task execution, checkout, cookie/session, group, or updater behavior was changed."
 }
