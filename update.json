@@ -1,9 +1,9 @@
 {
-  "version": "0.45.15",
+  "version": "0.45.16",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.15/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.15/TachyonAIO.exe",
-  "sha256": "54575cb31cd56fb4b7b5f1f0062de8aac39d7de719d7708616835f7550dacaac",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.16/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.16/TachyonAIO.exe",
+  "sha256": "7ea92889c7d60ee3c24968a90042436af4f675cd8a0e934c8cf68195f1a70d79",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.15 uses the extra Sidebar space created by the ten-workspace navigation to add a dedicated owner Announcements Hub directly below Owner Vault. Owner Vault remains a fixed lower-rail card while the new announcement composer flex-fills the remaining Sidebar space. Authorized owner/admin sessions with broadcasts.write can enter a title and message, choose Info, Release, Maintenance, or Warning, choose dismissible behavior, and send live to members directly from the Sidebar. The hub reuses the existing protected /api/owner/broadcasts pipeline so capability checks, audit behavior, signed member policy, live popup/history delivery, and the existing announcement system remain unchanged. The composer stays hidden from standard members and in collapsed-sidebar mode rather than compressing into the narrow rail. Regression coverage protects layout, authority gating, payload compatibility, and composition after the ten-tab navigation. The merged patch passed Architecture Guard, Linux Release Preflight, Windows Consumer E2E including the native Go tests, EXE build, protected runtime and real Wails/WebView2 shell, and CodeQL before Stable promotion."
+  "release_notes": "Tachyon AIO v0.45.16 improves the owner Top/Classic header layout by pairing Owner Vault with a matching Announcements control and centering the two-card group in the middle of the top header. The Announcements card uses the same black/graphite visual language and responsive sizing as Owner Vault. In Top view it opens the existing owner announcement composer beneath the header, while Sidebar behavior remains unchanged with the full composer in the lower rail. The change reuses the existing broadcasts.write authority gate and /api/owner/broadcasts delivery path so there is still only one protected announcement pipeline. Regression coverage protects centered placement, responsive sizing, Top-view popover behavior, Sidebar preservation, and authority gating. The exact PR head passed Architecture Guard, Linux Release Preflight, Windows Consumer E2E, and CodeQL before merge and Stable promotion."
 }
