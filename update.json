@@ -1,9 +1,9 @@
 {
-  "version": "0.45.18",
+  "version": "0.45.19",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.18/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.18/TachyonAIO.exe",
-  "sha256": "8f6088a83c9070729f41324c90565a8c80c6850cb2995bfe2c1d75b4c9ae2c7c",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.19/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.19/TachyonAIO.exe",
+  "sha256": "08036f08aaa4f77ac89377f89e41d4213f9817bc2a2b85e800e6713eb8796e99",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.18 is a hotfix for a UI freeze triggered by opening Settings -> Appearance. The owner Announcements hub was observing class and child mutations across the entire application subtree, so normal pane and navigation changes could repeatedly re-enter announcement placement while other shell runtimes were updating the DOM. This release narrows that observer to the application layout class only while retaining the dedicated Owner Vault visibility observer. Top/Classic Owner Vault + Announcements placement, Sidebar behavior, owner authority, member announcements, and the protected /api/owner/broadcasts pipeline remain unchanged. Regression coverage rejects restoration of the broad subtree observer, and the exact PR head passed Architecture Guard, Linux Release Preflight including UI runtime and DOM suites, Windows Consumer E2E including the real Wails/WebView2 shell, and CodeQL before merge and Stable promotion."
+  "release_notes": "Tachyon AIO v0.45.19 is a native black-screen recovery release for installs affected by the Settings -> Appearance regression. Replacing TachyonAIO.exe alone could leave the app black-screened because Wails/WebView2 reused the existing data/webview2 user-data directory, which retains renderer caches, localStorage and session state across EXE replacement. This release moves the native Windows shell to a fresh durable WebView2 UI profile generation at data/webview2-ui-v2 while preserving the legacy data/webview2 directory untouched for rollback. Core Tachyon state remains separate and unchanged: tasks, settings, ui-state, profiles, proxies, accounts, licenses and retailer browser profiles are not deleted or migrated. A Windows regression test proves the legacy WebView2 profile is not reused or removed. The exact PR head passed Architecture Guard, Linux Release Preflight including UI runtime and DOM suites, Windows Consumer E2E including native Go tests and the real Wails/WebView2 shell on the new profile generation, and CodeQL before merge and Stable promotion."
 }
