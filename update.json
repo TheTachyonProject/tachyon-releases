@@ -1,9 +1,9 @@
 {
-  "version": "0.45.17",
+  "version": "0.45.18",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.17/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.17/TachyonAIO.exe",
-  "sha256": "a021af9fa50c75a350412c18d770da148010c968ef815ee57849dfa4fbe2cdf7",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.18/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.18/TachyonAIO.exe",
+  "sha256": "8f6088a83c9070729f41324c90565a8c80c6850cb2995bfe2c1d75b4c9ae2c7c",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.17 corrects the Top/Classic owner header group so Owner Vault and Announcements are truly centered on the full application header. The previous layout still inherited legacy CSS Grid column placement, which caused the absolutely positioned center group to calculate its 50% position from the middle grid cell and appear shifted to the right. This release clears that legacy grid placement while preserving the existing matched card sizes, spacing, announcement popover behavior, protected broadcasts.write authority, and Sidebar layout. Regression coverage now locks the full-header containing block contract. The exact PR head passed Architecture Guard, Linux Release Preflight, Windows Consumer E2E, and CodeQL before merge and Stable promotion."
+  "release_notes": "Tachyon AIO v0.45.18 is a hotfix for a UI freeze triggered by opening Settings -> Appearance. The owner Announcements hub was observing class and child mutations across the entire application subtree, so normal pane and navigation changes could repeatedly re-enter announcement placement while other shell runtimes were updating the DOM. This release narrows that observer to the application layout class only while retaining the dedicated Owner Vault visibility observer. Top/Classic Owner Vault + Announcements placement, Sidebar behavior, owner authority, member announcements, and the protected /api/owner/broadcasts pipeline remain unchanged. Regression coverage rejects restoration of the broad subtree observer, and the exact PR head passed Architecture Guard, Linux Release Preflight including UI runtime and DOM suites, Windows Consumer E2E including the real Wails/WebView2 shell, and CodeQL before merge and Stable promotion."
 }
