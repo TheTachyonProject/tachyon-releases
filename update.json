@@ -1,9 +1,9 @@
 {
-  "version": "0.45.29",
+  "version": "0.45.30",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.29/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.29/TachyonAIO.exe",
-  "sha256": "066e3381bf93db380500a8a22097daa9e36d438d027bc08cca0ab1c79cc53c6d",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.30/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.30/TachyonAIO.exe",
+  "sha256": "f09091613b735c9c8cbe0b1543a4f3329eaa9e7c257f43f33c9b90185b40aaf4",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.29 re-establishes the exact v0.45.27 shell and visual baseline, then adds only the requested scoped improvements. Tasks keeps the existing Pok\u00e9mon Center, Target, Walmart, and Amazon retailer modules and now presents a retailer-to-drop-group-to-task hierarchy below them. Members can create and delete retailer-scoped drop groups, start or stop a selected group, search its tasks, and manage individual tasks; deleting a group moves its tasks to Ungrouped and never deletes them. Fleet Control is retired from the visible product while its compatible backend task operations remain intact. The release restores semantic color to real icons and artwork, restores the persistent Member announcements surface immediately at startup, fixes optional-node startup writes that could produce a bottom-right Cannot set properties of null error, adds compact accessible icon-led Top and Sidebar tabs without repainting the shell, and limits the graphite/blue redesign to the Update Available modal. No global root palette, pane repaint, navigation recolor, or second theme authority is introduced."
+  "release_notes": "Tachyon AIO v0.45.30 adds the new nested Tasks sidebar hierarchy. Pok\u00e9mon Center, Target, Walmart, Amazon, Login Cookies, and ATC Cookies are the six parent entries. Named groups remain hidden beneath their parent until expanded, and selecting a group opens only that group's task workspace. The new group flow creates groups directly under the selected parent. This release also includes the stability fixes validated by Chromium E2E, the 120-task soak, Windows consumer E2E, Linux preflight, Member Build Boundary, Architecture Guard, Prebuild, and CodeQL."
 }
