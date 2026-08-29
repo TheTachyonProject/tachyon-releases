@@ -1,9 +1,9 @@
 {
-  "version": "0.45.34",
+  "version": "0.45.35",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.34/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.34/TachyonAIO.exe",
-  "sha256": "d52a4d5504fea47f156e68d6d76d19ba6bbf14b01cc7e2f44b23ba4cef1fa7ec",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.35/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.35/TachyonAIO.exe",
+  "sha256": "439296e5df4dc48b3e1c2794f6c485d1215d534f404023ee8f97e8494866a2fe",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.34 streamlines the desktop navigation and finishes the latest Tasks polish. The main sidebar is reduced to seven primary destinations: Dashboard, Drops, Tasks, Profiles, Accounts, Proxies, and Settings. Orders, Automation, Operations, and Diagnostics are now available as Settings sub-sections, while Owner Vault and Announcements expand to use the reclaimed sidebar space. Tasks now orders modules as Pok\u00e9mon Center, Walmart, Amazon, Target, Login Cookies, and ATC Cookies; the New Task Group picker uses the same layout with Target in the bottom-left, retailer placeholders are replaced with recognizable retailer marks, and leaving a selected group returns the workspace to the standard Select a task group landing screen. No task execution, checkout, cookie/session, or retail backend behavior was changed."
+  "release_notes": "Tachyon AIO v0.45.35 is a focused hotfix for two regressions introduced in v0.45.34. The seven-tab navigation no longer runs a continuous DOM mutation/reordering loop, restoring reliable tab clicks throughout the desktop shell. The Update Available dialog is now strictly black, graphite, and white; the later visual-correction layer no longer reintroduces blue or cyan styling over the monochrome updater. Regression coverage now explicitly forbids the continuous navigation MutationObserver and forbids the legacy blue updater accents. No task execution, checkout, cookie/session, or retail backend behavior was changed."
 }
