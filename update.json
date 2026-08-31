@@ -1,9 +1,9 @@
 {
-  "version": "0.45.38",
+  "version": "0.45.40",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.38/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.38/TachyonAIO.exe",
-  "sha256": "fe888a1b5f54750006db02f182d80cee3863ca074419a03433ac57013eec95bd",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.40/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.40/TachyonAIO.exe",
+  "sha256": "cfbffd44c6fde494a8ff58959b4ece591e41c437944bb4264b7fd12b883484fa",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.38 fixes the remaining Tasks presentation regressions: the Tasks hierarchy now starts collapsed after restart, the module order is Pok\u00e9mon Center, Walmart, Amazon, Target, Login Cookies, ATC Cookies, recognizable retailer marks are restored reliably on cold start, and Login Cookies / ATC Cookies open as separate module presentations instead of the old combined Target Session Jar selector. No checkout or task execution behavior was changed."
+  "release_notes": "Tachyon AIO v0.45.40 fixes the Tasks regressions reproduced on v0.45.39 with the canonical v10 Tasks workspace. Boot now performs one automatic tree render only; the delayed 300 ms rebuild, 500 ms polling repaint loop, and runtime Tasks-tree MutationObserver stack are removed from the visible Tasks path. Login Cookies and ATC Cookies now open dedicated Tasks workspaces, while the legacy combined Target Session Jar Manager header and kind selector remain hidden behind the underlying local session runtime."
 }
