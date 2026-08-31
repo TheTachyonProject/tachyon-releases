@@ -1,9 +1,9 @@
 {
-  "version": "0.45.36",
+  "version": "0.45.37",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.36/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.36/TachyonAIO.exe",
-  "sha256": "7ecd9facd0174f8c4d1b08e7866d991410fc8d49cf36ac4fc5084e5c09211288",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.37/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.37/TachyonAIO.exe",
+  "sha256": "8026389f80704a8d8bb5b06f43af7054c49933d08d4329c9b73e393aaa3bb63f",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.36 completes the v0.45.35 hotfix with a final runtime authority for every updater surface. The seven-tab navigation remains stabilized without the continuous DOM MutationObserver/reordering loop that made tabs unresponsive in v0.45.34. The Update Available dialog and the later byte-backed download/progress UI are now forced to black, graphite, gray, and white, with legacy cyan, blue, purple, neon glow, and source-order overrides explicitly neutralized. Regression coverage rejects those legacy updater accent colors from the final authority. No task execution, checkout, cookie/session, retailer, or purchase behavior was changed."
+  "release_notes": "Tachyon AIO v0.45.37 is a focused Tasks hierarchy rendering hotfix. It removes the self-sustaining MutationObserver/reordering loop that could make task-group labels flicker, disappear, or continuously repaint before any interaction. The retailer ordering/logo pass is now idempotent and observes only direct Tasks tree and New Task Group list changes. No updater, primary navigation, checkout, task execution, cookie/session, retailer, or Settings behavior was changed."
 }
