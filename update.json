@@ -1,9 +1,9 @@
 {
-  "version": "0.45.37",
+  "version": "0.45.38",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.37/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.37/TachyonAIO.exe",
-  "sha256": "8026389f80704a8d8bb5b06f43af7054c49933d08d4329c9b73e393aaa3bb63f",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.38/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.38/TachyonAIO.exe",
+  "sha256": "fe888a1b5f54750006db02f182d80cee3863ca074419a03433ac57013eec95bd",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.37 is a focused Tasks hierarchy rendering hotfix. It removes the self-sustaining MutationObserver/reordering loop that could make task-group labels flicker, disappear, or continuously repaint before any interaction. The retailer ordering/logo pass is now idempotent and observes only direct Tasks tree and New Task Group list changes. No updater, primary navigation, checkout, task execution, cookie/session, retailer, or Settings behavior was changed."
+  "release_notes": "Tachyon AIO v0.45.38 fixes the remaining Tasks presentation regressions: the Tasks hierarchy now starts collapsed after restart, the module order is Pok\u00e9mon Center, Walmart, Amazon, Target, Login Cookies, ATC Cookies, recognizable retailer marks are restored reliably on cold start, and Login Cookies / ATC Cookies open as separate module presentations instead of the old combined Target Session Jar selector. No checkout or task execution behavior was changed."
 }
