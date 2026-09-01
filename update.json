@@ -1,9 +1,9 @@
 {
-  "version": "0.45.41",
+  "version": "0.45.42",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.41/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.41/TachyonAIO.exe",
-  "sha256": "2aa1d3bb538d58559e61e4af51f924fdadaee01ab0399351c4d14e670966a2b0",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.42/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.42/TachyonAIO.exe",
+  "sha256": "4c508c4503162922023756c705f79332db3dbf18d656e39f7914119fe58df631",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.41 adds the Generator workspace between Profiles and Accounts. Generator uses the same retailer -> named group -> account task hierarchy style as Tasks for Walmart, Target, and Amazon, supports per-task proxy assignment, isolated Chrome/Edge/Brave browser profiles, headless signup-field autofill preparation, headed review handoff, normal verification/challenge detection, queued account preparation, and focused regression coverage."
+  "release_notes": "Tachyon AIO v0.45.42 fixes the Generator navigation regression from v0.45.41. Generator is now a first-class eighth primary route between Profiles and Accounts in the authoritative router and primary-navigation model, mounts before navigation consolidation, and no longer inherits the previously active pane. This release also adds dedicated real-Chromium Generator navigation coverage that enters Generator from every other primary destination and requires Generator to be the only active pane before a release can pass Prebuild."
 }
