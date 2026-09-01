@@ -1,9 +1,9 @@
 {
-  "version": "0.45.40",
+  "version": "0.45.41",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.40/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.40/TachyonAIO.exe",
-  "sha256": "cfbffd44c6fde494a8ff58959b4ece591e41c437944bb4264b7fd12b883484fa",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.41/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.41/TachyonAIO.exe",
+  "sha256": "2aa1d3bb538d58559e61e4af51f924fdadaee01ab0399351c4d14e670966a2b0",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.40 fixes the Tasks regressions reproduced on v0.45.39 with the canonical v10 Tasks workspace. Boot now performs one automatic tree render only; the delayed 300 ms rebuild, 500 ms polling repaint loop, and runtime Tasks-tree MutationObserver stack are removed from the visible Tasks path. Login Cookies and ATC Cookies now open dedicated Tasks workspaces, while the legacy combined Target Session Jar Manager header and kind selector remain hidden behind the underlying local session runtime."
+  "release_notes": "Tachyon AIO v0.45.41 adds the Generator workspace between Profiles and Accounts. Generator uses the same retailer -> named group -> account task hierarchy style as Tasks for Walmart, Target, and Amazon, supports per-task proxy assignment, isolated Chrome/Edge/Brave browser profiles, headless signup-field autofill preparation, headed review handoff, normal verification/challenge detection, queued account preparation, and focused regression coverage."
 }
