@@ -1,9 +1,9 @@
 {
-  "version": "0.45.43",
+  "version": "0.45.44",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.43/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.43/TachyonAIO.exe",
-  "sha256": "19731d779568daa903b3d9fe696164ebe9825b81b044fa84af565fafd46d95cc",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.44/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.44/TachyonAIO.exe",
+  "sha256": "47e702ee62d23e6d6f5ba7aacfe9ada92f76fe4d45f10a98dc39d19fff82bd74",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.43 fixes the remaining Generator stale-pane runtime ordering bug. When the Generator pane already exists before its workspace boot callback runs, Generator now still installs its route wrapper and renders its workspace instead of returning early and leaving the previously selected primary tab visible. Regression coverage verifies Generator becomes the sole active pane when entered from Dashboard, Drops, Tasks, Profiles, Accounts, Proxies, and Settings."
+  "release_notes": "Tachyon AIO v0.45.44 fixes Generator navigation at the canonical Core v2 router layer. Generator is now a native generator -> generatorPane route in TachyonCore instead of depending on a feature-owned window.tab wrapper, so restoring or re-exporting the Core router can no longer leave the previously selected pane visible when Generator is clicked. Real-Chromium regression coverage now deliberately replaces window.tab with TachyonCore.navigate and verifies Generator opens as the sole active pane from every primary destination."
 }
