@@ -1,9 +1,9 @@
 {
-  "version": "0.45.44",
+  "version": "0.45.45",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.44/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.44/TachyonAIO.exe",
-  "sha256": "47e702ee62d23e6d6f5ba7aacfe9ada92f76fe4d45f10a98dc39d19fff82bd74",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.45/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.45/TachyonAIO.exe",
+  "sha256": "f91437ff9829855eccfe13dc87c02984bcfaf1bde888bc9937aed2e6c322c0c2",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.44 fixes Generator navigation at the canonical Core v2 router layer. Generator is now a native generator -> generatorPane route in TachyonCore instead of depending on a feature-owned window.tab wrapper, so restoring or re-exporting the Core router can no longer leave the previously selected pane visible when Generator is clicked. Real-Chromium regression coverage now deliberately replaces window.tab with TachyonCore.navigate and verifies Generator opens as the sole active pane from every primary destination."
+  "release_notes": "Tachyon AIO v0.45.45 fixes the Generator tab's actual visual-pane failure. The Generator compatibility route previously selected Generator in navigation and toggled .active classes but could leave the prior workspace physically visible because legacy navigation had written inline display:block to that pane. Generator now delegates to the canonical Core v2 router whenever available; its pre-Core fallback explicitly hides every other pane and shows generatorPane. Chromium regression coverage keeps the real shipped compatibility wrapper installed and verifies computed display visibility from Dashboard, Drops, Tasks, Profiles, Accounts, Proxies, and Settings, so Generator must be the only physically visible pane rather than merely the only pane marked active."
 }
