@@ -1,9 +1,9 @@
 {
-  "version": "0.45.46",
+  "version": "0.45.47",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.46/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.46/TachyonAIO.exe",
-  "sha256": "f7b9d0b0de19cea391bb0fb495de1a0182231a2272f195af32e7a5ee8dbae76b",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.47/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.47/TachyonAIO.exe",
+  "sha256": "d9f5d7d89fbd07a235d6ab234e15799a4c8300b5c38d1a46d953713010d485d7",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.46 replaces the Generator group's native wails.localhost prompt with a Tachyon-native in-app modal matching the Tasks group creator. The Generator modal includes Walmart, Target, and Amazon retailer selection, retailer search, an inline group-name field, Cancel/Add controls, Enter submit, Escape/backdrop close, and in-app duplicate-group feedback. Chromium regression coverage opens the real Generator modal, creates a Target Generator group, verifies it appears in the Generator tree, and rejects any native browser or WebView dialog."
+  "release_notes": "Tachyon AIO v0.45.47 finishes the Generator/sidebar UI polish. Generator now participates in the same draggable navigation system as the other primary tabs and preserves its dragged position across reloads. Generator also flexes to fill the available workspace instead of leaving a large black void at the bottom. In desktop Sidebar appearance, the redundant full-width top header is removed because Tachyon branding already lives in the left rail. Colored retailer marks are restored in the Tasks hierarchy for Pok\u00e9mon Center, Target, Walmart, and Amazon and in the Generator hierarchy for Walmart, Target, and Amazon. Chromium regression coverage verifies real HTML5 drag persistence, rendered colored retailer artwork, computed sidebar header visibility, Generator pane/shell geometry and bottom gap, routing, and the Tachyon-native Generator group modal."
 }
