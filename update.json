@@ -1,9 +1,9 @@
 {
-  "version": "0.45.48",
+  "version": "0.45.49",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.48/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.48/TachyonAIO.exe",
-  "sha256": "1eaadf543c0106e137c036b37bc25f3daf67be98334806cbeeca9700fc24d3cc",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.49/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.49/TachyonAIO.exe",
+  "sha256": "ccbf8800c5381d9a5db757a220c6d2a9d3ccbb29feb2cd174ec8ca677a17a909",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.48 completes the Sidebar hierarchy sizing pass. In desktop Sidebar appearance, Tasks now uses the reclaimed viewport height instead of leaving a large dead zone below the workspace while preserving the existing normal-flow/grid interaction model and task-group controls. Generator retailer rows now match the real rendered Tasks retailer row height, logo size, and label scale instead of relying on nominal CSS dimensions. The redundant page-level Generator heading and subtitle are removed entirely so the Generator workspace begins immediately with its hierarchy shell. Chromium regression coverage verifies the hidden Sidebar top header, near-full-height Tasks pane/studio/shell geometry and minimal bottom gap, matching rendered Tasks/Generator retailer dimensions, Generator routing, native group modal behavior, retailer artwork, HTML5 drag persistence, and the 120-task soak."
+  "release_notes": "Tachyon AIO v0.45.49 reworks Drops into a compact, no-scroll desktop workspace. The old stacked hero, metrics, oversized inline editor, readiness explainer, radar cards, and planner/calendar/archive surfaces are removed from the main Drops view. Drops now uses one dense toolbar, a viewport-paginated drop list, and a selected-drop inspector with the launch details and actions that matter. Add/Edit moves into a compact Tachyon modal while preserving the existing canonical drop storage, Tasks handoff, Preflight, Arm Drop, watch, duplicate, delete, import, and export behavior. A final runtime remount guard prevents older compatibility renderers from deleting the compact workspace after navigation. Chromium regression coverage seeds 24 drops and verifies no vertical or horizontal scrolling, hidden legacy surfaces, viewport pagination, retained actions and modal fields, alongside the full browser suite and 120-task soak."
 }
