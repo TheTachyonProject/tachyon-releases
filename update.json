@@ -1,9 +1,9 @@
 {
-  "version": "0.45.45",
+  "version": "0.45.46",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.45/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.45/TachyonAIO.exe",
-  "sha256": "f91437ff9829855eccfe13dc87c02984bcfaf1bde888bc9937aed2e6c322c0c2",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.46/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.46/TachyonAIO.exe",
+  "sha256": "f7b9d0b0de19cea391bb0fb495de1a0182231a2272f195af32e7a5ee8dbae76b",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.45 fixes the Generator tab's actual visual-pane failure. The Generator compatibility route previously selected Generator in navigation and toggled .active classes but could leave the prior workspace physically visible because legacy navigation had written inline display:block to that pane. Generator now delegates to the canonical Core v2 router whenever available; its pre-Core fallback explicitly hides every other pane and shows generatorPane. Chromium regression coverage keeps the real shipped compatibility wrapper installed and verifies computed display visibility from Dashboard, Drops, Tasks, Profiles, Accounts, Proxies, and Settings, so Generator must be the only physically visible pane rather than merely the only pane marked active."
+  "release_notes": "Tachyon AIO v0.45.46 replaces the Generator group's native wails.localhost prompt with a Tachyon-native in-app modal matching the Tasks group creator. The Generator modal includes Walmart, Target, and Amazon retailer selection, retailer search, an inline group-name field, Cancel/Add controls, Enter submit, Escape/backdrop close, and in-app duplicate-group feedback. Chromium regression coverage opens the real Generator modal, creates a Target Generator group, verifies it appears in the Generator tree, and rejects any native browser or WebView dialog."
 }
