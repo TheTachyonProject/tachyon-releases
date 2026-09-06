@@ -1,9 +1,9 @@
 {
-  "version": "0.45.47",
+  "version": "0.45.48",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.47/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.47/TachyonAIO.exe",
-  "sha256": "d9f5d7d89fbd07a235d6ab234e15799a4c8300b5c38d1a46d953713010d485d7",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.48/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.48/TachyonAIO.exe",
+  "sha256": "1eaadf543c0106e137c036b37bc25f3daf67be98334806cbeeca9700fc24d3cc",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.47 finishes the Generator/sidebar UI polish. Generator now participates in the same draggable navigation system as the other primary tabs and preserves its dragged position across reloads. Generator also flexes to fill the available workspace instead of leaving a large black void at the bottom. In desktop Sidebar appearance, the redundant full-width top header is removed because Tachyon branding already lives in the left rail. Colored retailer marks are restored in the Tasks hierarchy for Pok\u00e9mon Center, Target, Walmart, and Amazon and in the Generator hierarchy for Walmart, Target, and Amazon. Chromium regression coverage verifies real HTML5 drag persistence, rendered colored retailer artwork, computed sidebar header visibility, Generator pane/shell geometry and bottom gap, routing, and the Tachyon-native Generator group modal."
+  "release_notes": "Tachyon AIO v0.45.48 completes the Sidebar hierarchy sizing pass. In desktop Sidebar appearance, Tasks now uses the reclaimed viewport height instead of leaving a large dead zone below the workspace while preserving the existing normal-flow/grid interaction model and task-group controls. Generator retailer rows now match the real rendered Tasks retailer row height, logo size, and label scale instead of relying on nominal CSS dimensions. The redundant page-level Generator heading and subtitle are removed entirely so the Generator workspace begins immediately with its hierarchy shell. Chromium regression coverage verifies the hidden Sidebar top header, near-full-height Tasks pane/studio/shell geometry and minimal bottom gap, matching rendered Tasks/Generator retailer dimensions, Generator routing, native group modal behavior, retailer artwork, HTML5 drag persistence, and the 120-task soak."
 }
