@@ -1,9 +1,9 @@
 {
-  "version": "0.45.49",
+  "version": "0.45.50",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.49/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.49/TachyonAIO.exe",
-  "sha256": "ccbf8800c5381d9a5db757a220c6d2a9d3ccbb29feb2cd174ec8ca677a17a909",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.50/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.50/TachyonAIO.exe",
+  "sha256": "5cadbdb86b91eb89d4256a97a735be510207f9f79488138d76dacaf97237ca03",
   "authenticode_signed": false,
-  "release_notes": "Tachyon AIO v0.45.49 reworks Drops into a compact, no-scroll desktop workspace. The old stacked hero, metrics, oversized inline editor, readiness explainer, radar cards, and planner/calendar/archive surfaces are removed from the main Drops view. Drops now uses one dense toolbar, a viewport-paginated drop list, and a selected-drop inspector with the launch details and actions that matter. Add/Edit moves into a compact Tachyon modal while preserving the existing canonical drop storage, Tasks handoff, Preflight, Arm Drop, watch, duplicate, delete, import, and export behavior. A final runtime remount guard prevents older compatibility renderers from deleting the compact workspace after navigation. Chromium regression coverage seeds 24 drops and verifies no vertical or horizontal scrolling, hidden legacy surfaces, viewport pagination, retained actions and modal fields, alongside the full browser suite and 120-task soak."
+  "release_notes": "Tachyon AIO v0.45.50 reworks Profiles into the same retailer -> named group -> profile hierarchy used by Tasks. The redundant Profiles title and subtitle are removed. Pok\u00e9mon Center, Target, Walmart, and Amazon each expose their own expandable retailer branch with independently named profile groups, while existing unassigned profiles remain accessible through an Ungrouped Profiles lane. The hierarchy reuses Tachyon's existing Resource Organizer profile-group IDs so groups created in Profiles remain compatible with Tasks profile-group selectors. The existing validated profile editor is moved into a Tachyon modal with explicit group assignment while preserving edit, duplicate, archive/restore, import/export, validation, and non-payment identity storage behavior. Group creation, rename, delete, retailer isolation, profile assignment, and ungrouped recovery are covered by a dedicated real Chromium regression alongside the full browser suite and 120-task soak."
 }
