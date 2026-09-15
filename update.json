@@ -1,10 +1,10 @@
 {
-  "version": "0.45.53",
+  "version": "0.45.54",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.53/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.53/TachyonAIO.exe",
-  "sha256": "4e6a9595943c72ecedcc898d0198d45237d9c311ade04b4271219be2e57e6372",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.54/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.54/TachyonAIO.exe",
+  "sha256": "a03b2fb80244b0ec21f1cee032217fa895accd5516339272c4906e683ef663d8",
   "authenticode_signed": false,
-  "source_sha": "9b7dee8a13c99d33f5b90c0cf2f698b627e920b3",
-  "release_notes": "Tachyon AIO v0.45.53 closes key pre-launch commerce and diagnostics gaps. Authenticated Whop membership activations for explicitly mapped plans can now provision Tachyon access automatically from Whop's delivered license key without persisting the plaintext key, while membership identity remains isolated for customers with multiple memberships. Webhook acknowledgement now fails closed when updated entitlement/evidence state cannot be persisted. A privacy-safe Founders Lifetime inventory endpoint provides real cap/sold/remaining state for the public website while finite Whop plan stock remains the checkout enforcement layer. Task status JSON now includes backward-compatible normalized failure metadata for network, proxy, account-authentication, out-of-stock, manual-verification, payment-decline, browser-session and generic runtime conditions. Commercial-launch CI contracts protect these guarantees. This release also exercises Tachyon's new protected-main-safe publication path, provenance-bound public manifest, external Windows-byte verification, runtime health smoke test and guarded manifest rollback introduced by the launch-hardening work. Pre-launch Stable remains intentionally allowed unsigned until the commercial signing gate is enabled."
+  "source_sha": "81c81494e651f8b1e9b891c3eec1b393909f719c",
+  "release_notes": "Tachyon AIO v0.45.54 refreshes the Settings experience to match the newer unified Tachyon workspace hierarchy while preserving every existing Settings feature and route. Settings now uses the same compact left-side navigation rail and right-side content stage language as newer Profiles and Accounts surfaces, with normalized Obsidian headers, clearer active states and responsive behavior for narrow windows. Account, Appearance, Updates, Guides, Orders, Automation, Operations and Diagnostics all remain available with their existing pane IDs, controls, callbacks, persistence and runtime behavior intact. This release also includes regression coverage for the complete eight-section Settings contract and ships only after the protected-main validation stack, Windows Consumer E2E, Linux release preflight, member-build boundary, CodeQL, real Chromium E2E and 120-task soak all passed."
 }
