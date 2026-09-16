@@ -1,10 +1,10 @@
 {
-  "version": "0.45.54",
+  "version": "0.45.55",
   "channel": "stable",
-  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.54/TachyonAIO.exe",
-  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.54/TachyonAIO.exe",
-  "sha256": "a03b2fb80244b0ec21f1cee032217fa895accd5516339272c4906e683ef663d8",
+  "exe_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.55/TachyonAIO.exe",
+  "download_url": "https://github.com/TheTachyonProject/tachyon-releases/releases/download/v0.45.55/TachyonAIO.exe",
+  "sha256": "8284369c7323e8947e062c42ff4c8caf97712bacea783981f86aa9487595fdf4",
   "authenticode_signed": false,
-  "source_sha": "81c81494e651f8b1e9b891c3eec1b393909f719c",
-  "release_notes": "Tachyon AIO v0.45.54 refreshes the Settings experience to match the newer unified Tachyon workspace hierarchy while preserving every existing Settings feature and route. Settings now uses the same compact left-side navigation rail and right-side content stage language as newer Profiles and Accounts surfaces, with normalized Obsidian headers, clearer active states and responsive behavior for narrow windows. Account, Appearance, Updates, Guides, Orders, Automation, Operations and Diagnostics all remain available with their existing pane IDs, controls, callbacks, persistence and runtime behavior intact. This release also includes regression coverage for the complete eight-section Settings contract and ships only after the protected-main validation stack, Windows Consumer E2E, Linux release preflight, member-build boundary, CodeQL, real Chromium E2E and 120-task soak all passed."
+  "source_sha": "ada0b656834b8a3231efa91e3a521ad21d116c0f",
+  "release_notes": "Tachyon AIO v0.45.55 completes the Settings redesign by unifying the interiors of all eight Settings destinations. Account, Appearance, Updates, Guides, Orders, Automation, Operations and Diagnostics now share the same compact Obsidian control-surface language for section headers, telemetry rows, cards, fields, buttons, consoles, dividers, spacing and responsive behavior. Existing controls, pane IDs, callbacks, routing, data bindings and persistence remain intact; this release is a presentation-layer refresh rather than a functional rewrite. The Settings interior changes were validated with UI/runtime contracts, DOM tests, Go tests, Linux security preflight, Windows native build and WebView2 boot, CodeQL, real Chromium E2E and the 120-task soak before release."
 }
